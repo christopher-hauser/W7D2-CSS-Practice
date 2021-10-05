@@ -1,3 +1,8 @@
+#root {
+    margin: 1% 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .nav__upper {
     display: flex;
     justify-content: space-between;
@@ -20,11 +25,18 @@
 }
 
 .nav__lower {
-    /* position: absolute; */
+    display:flex;
+    justify-content: space-around;
+    margin: 2% 10%;
+}
+
+.nav__lower > a {
+    display: inline;
+    text-decoration: none;
+    color: rgb(144, 144, 144);
 }
 
 .sign-in {
-    font-family: Arial;
     color: rgb(65, 151, 65)
 }
 
@@ -34,4 +46,18 @@
     border: 1px solid rgb(65, 151, 65);
     border-radius: 5px;
     padding: 3px 6px;
+}
+
+.content {
+    margin: 4% 22.5%;
+}
+
+.main__img {
+    display: block;
+    width: 100%;
+    /* height: auto; */
+}
+
+h1 {
+    font-size: 3em;
 }
