@@ -16,7 +16,6 @@
 
 .upper__right {
     display: inline-block;
-
 }
 
 .upper__right > a {
@@ -56,6 +55,7 @@
     padding: 1% 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 150%;
+    text-align: justify;
 }
 
 .main__img {
@@ -79,6 +79,7 @@ h1 {
 
 
 .grid {
+    margin: 2% 10% 2% 14%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -86,4 +87,34 @@ h1 {
     grid-template-areas:
       ". ."
       ". .";
+}
+
+.grid a {
+    color: black;
+    text-decoration: none;
+    margin: 1% 0;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__left {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
+
+.footer__right {
+    display: inline-block;
+}
+
+.footer__right a {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    margin: 1em;
 }
