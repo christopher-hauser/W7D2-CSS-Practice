@@ -31,10 +31,15 @@ p.more {
 }
 
 /* Your code here */
+
 * {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   background-color: whitesmoke;
   color: #464646;
+}
+
+.wrapper {
+  margin: 5% 15%;
 }
 
 a {
@@ -107,4 +112,47 @@ ul.clfooter {
   text-align: center;
   border: 1px solid #464646;
   padding: 10px 0px 10px 0px;
+}
+
+ul.clfooter li {
+  display: inline;
+  padding: 0px 5px 0px 0px;
+}
+
+h4::before {
+  content: url("https://appacademy-open-assets.s3-us-west-1.amazonaws.com/Module-Responsive-Design/attributes/assets/peace-symbol-emoji.png");
+  zoom: 12.5%;
+  display: inline-block;
+  padding: 0 3% 0 0;
+}
+
+td {
+  border: 1px solid #333;
+  /* background-color: none; */
+}
+
+.cal td {
+  text-align: center;
+}
+
+.cal {
+  border-collapse: collapse;
+}
+
+.cal td:not(link) {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.past:hover {
+  cursor: not-allowed;
+}
+
+.cal a {
+  color: green;
+  font-weight: bold;
+}
+
+.today a {
+  background-color: darkviolet;
+  color: white;
 }
